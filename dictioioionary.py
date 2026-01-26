@@ -1,0 +1,37 @@
+sha={
+    "brand":"Ford",
+    "model":"mustang",
+    "year":1964
+}
+print(sha)
+print(sha["brand"])
+print(type(sha))
+x=sha["model"]
+print(x)
+y=sha.get("model")
+print(y)
+x=sha.keys()
+print(x)
+sha["colour"]="white"
+print(x)
+z=sha.values()
+print(z)
+sha["year"]=2023
+print(z)
+w=sha.values()
+print(w)
+sha["colour"]="red"
+print(w)
+v=sha.items()
+print(v)
+u=sha.items()
+print(u)
+sha["year"]=2024
+print(u)
+tas={
+    "name":"Diya",
+    "salary":50000,
+    "age":28
+    }
+sha.update(tas)
+print(sha)
