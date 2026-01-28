@@ -1,5 +1,0 @@
-x=int(input("Enter 1st Number: "))
-x2=int(input("Enter 2nd Number: "))
-x3=int(input("Enter 3rd Number: "))
-a=max(x,x2,x3)
-print("The Largest number is: ",a)

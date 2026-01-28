@@ -1,5 +1,0 @@
-T=(21,32,65,90,59,17,50)
-print(max(T))
-print(min(T))
-print(T[0:])
-print(T.count(21))
