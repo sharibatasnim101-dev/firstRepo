@@ -1,3 +1,3 @@
 #second task while learning Git and Github
 
-print("Version 2")
+print("new Version 2.1")
