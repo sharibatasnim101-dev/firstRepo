@@ -1,6 +1,6 @@
-#second task while learning Git and Github
+#second task while learning Git and GitHub
 
-print("new Version 2.1")
+print("Version 2")
 
 import random
 print("a random number", random.randint(0,9))
