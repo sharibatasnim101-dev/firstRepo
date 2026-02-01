@@ -1,3 +1,4 @@
-#second task while learning Git and Github
+#second task while learning Git and GitHub
 
-print("Version 2")
+print("Hey there! this is...")
+print("Version 3")
