@@ -1,4 +1,4 @@
-# What is?
+# What is this?
 This is a minimal web server that uses the fastapi async library.
 
 # How to set up?
@@ -30,3 +30,5 @@ Changes made to the code will show up immediately thanks to `--reload`
 
 # How to test?
 http://127.0.0.1:8000
+
+(changes made by Shariba)
