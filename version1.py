@@ -1,4 +1,6 @@
 #second task while learning Git and GitHub
 
-print("Hey there! this is...")
-print("Version 3")
+print("Version 2")
+
+import random
+print("a random number", random.randint(0,9))
