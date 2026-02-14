@@ -18,6 +18,7 @@ app.add_middleware(
     allow_origins=[
         "https://my-cool-app.example.com",
         "http://localhost:3000",
+        "http://localhost:5173",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -26,5 +27,5 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    logger.info("Server replied to client's request")
-    return {"message": "FastAPI is running"}
+    logger.info("Сервер ответил на запрос клиента")
+    return {"message": "FastAPI is running in russian!"}
